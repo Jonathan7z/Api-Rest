@@ -1,0 +1,293 @@
+@font-face {
+    font-family: Futura MD;
+    src: url(../../font/FutuMd__.ttf);
+}
+
+@font-face {
+    font-family: Futura bt light;
+    src: url(../../font/futuralightbt.ttf);
+}
+
+h6 {
+    font-family: Futura bt light;
+    font-size: 15px;
+}
+
+.lista {
+    font-family: Futura bt light;
+    font-size: 14px;
+}
+
+.lista2 {
+    font-family: Futura bt light;
+    font-size: 13px;
+}
+
+.navegacion {
+    font-family: Futura MD;
+    text-decoration: none;
+    font-size: .8000rem;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+}
+
+
+.text-muted {
+    color: black !important;
+}
+
+.letras {
+    font-family: Futura MD;
+    font-size: 43.63pt;
+}
+
+.subtitle {
+    font-family: Futura MD;
+    font-size: 18.81pt;
+}
+
+.myButton {
+    background-color: #1b1b1b;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Futura bt light;
+    font-size: 18px;
+    padding: .45rem 2.55rem;
+    text-decoration: none !important;
+    border-radius: 0;
+}
+
+.up{
+    font-family: Futura bt light;
+}
+
+
+a:hover {
+    text-decoration: none !important;
+    color: #fff;
+}
+
+.margenfoot {
+    background-color: #1f1f1f;
+
+
+}
+
+ul, a {
+    text-decoration: none !important;
+    color: white;
+}
+
+.scrollTop {
+    width: 2.455rem;
+    height: 2.455rem;
+    border: 1px solid #e6e6e6;
+    position: fixed;
+    bottom: 4.6875rem;
+    right: 1rem;
+    cursor: pointer;
+    z-index: 50;
+    display: none;
+    background-color: #fff
+}
+
+.scrollTop:after {
+    content: "";
+    display: block;
+    border-left: 1px solid #1f1f1f;
+    border-top: 1px solid #1f1f1f;
+    width: .625rem;
+    height: .625rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    margin-left: -5px;
+    margin-top: -2px
+}
+
+.btn-light {
+    border-radius: 0;
+}
+
+.alt{
+    margin-top: 20px;
+}
+
+.btn {
+    border-radius: 0;
+}
+
+h6.TituloMD {
+    font-family: Futura MD;
+}
+
+h6.TituloLT {
+    font-family: Futura bt light;
+}
+
+.FormPrincipal {
+    border-radius: 0;
+    font-family: Futura bt light;
+
+}
+
+.espacio {
+    margin-bottom: -25px;
+}
+
+.ImagenPrincipal {
+    margin-top: 5;
+}
+
+.carousel-indicators li, .carousel-indicators .active {
+    width: 15px;
+    height: 15px;
+    margin: 6px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 10px;
+
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    border: 0.5px;
+    border-radius: 6px;
+}
+
+.carousel-indicators {
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    z-index: 15;
+    width: 60%;
+    padding-left: 0;
+    margin-left: -30%;
+    text-align: center;
+}
+
+.iconos {
+    font-size: 1.5em;
+    margin-top: -15px;
+}
+
+.leftf {
+    margin-top: 30px;
+    margin-left: -30px;
+}
+
+label {
+    font-size: 1em;
+    margin-right: 8px;
+
+}
+
+input[type=checkbox] {
+    display: none;
+}
+
+input[type=checkbox] + label {
+    cursor: pointer;
+}
+
+label:before {
+    content: '';
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 0px;
+    display: inline-block;
+    height: 20px;
+    margin-right: 5px;
+    text-align: center;
+    text-shadow: 4px -2px 3px gray;
+    vertical-align: middle;
+    width: 20px;
+
+}
+
+input[type=checkbox]:checked + label:before {
+   content: '✓';
+    font-size: 15px;
+    color: white;
+}
+
+.footer {
+    background-color: #1f1f1f;
+    padding: 3rem 4rem 1.25rem;
+    z-index: 35;
+    position: relative
+}
+
+@media screen and (max-width: 39.9375em) {
+    .footer {
+        padding: 2.5rem 0 1.25rem
+    }
+}
+
+.footer .footer-options {
+    padding-top: 1.5625rem
+}
+
+.footer .separator.huge > svg {
+    width: 13.75rem;
+    height: 1.25rem;
+    fill: #fff
+}
+
+.footer .separator.huge:after, .footer .separator.huge:before {
+    background: #fff;
+    width: calc(50% - 130px)
+}
+
+.footer .button.primary {
+    border: 1px solid #fff;
+    padding: .6875rem 1.875rem
+}
+
+.footer .footer-item {
+    color: #fff
+}
+
+@media screen and (max-width: 39.9375em) {
+    .footer .footer-item:last-child {
+        -webkit-order: -1;
+        -ms-flex-order: -1;
+        order: -1
+    }
+}
+
+@media screen and (max-width: 39.9375em) {
+    .footer .footer-item .cell.shrink {
+        margin: 0;
+        width: 100%
+    }
+}
+
+.footer .footer-item .accordion {
+    background: 0 0;
+    border: 0
+}
+
+.footer .footer-item .accordion .accordion-item .accordion-title {
+    margin-bottom: .3125rem;
+    border: 0;
+    padding: .3125rem 0
+}
+
+.terms{
+    font-size:9pt;color:#999999;
+    font-family: Futura bt light;
+    letter-spacing: 0.1em;
+}
+
+
+
